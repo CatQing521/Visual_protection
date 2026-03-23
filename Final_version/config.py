@@ -41,7 +41,7 @@ RECORD_INTERVAL_SEC = 5
 ALERT_COOLDOWN_SEC  = 15
 
 # ─── AI 建议 ─────────────────────────────────────────────
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-90fc69843fa54875917f2f4d20a49858")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 # ════════════════════════════════════════════════════════
 # ─── 自适应卡尔曼滤波参数 ────────────────────────────────
